@@ -41,7 +41,47 @@ const translations = {
     sampleSitesTitle: 'Блокталатын сайттардан мысалдар',
     sampleSitesCount: '78 сайт',
     footerRights: '© Rolab. Барлық құқықтар қорғалған.',
-    footerDownloads: 'Жүктеулер'
+    footerDownloads: 'Жүктеулер',
+    navGames: "Ойындар",
+    navExam: "DAMOO тесті",
+    navCloud: "Cloud демо",
+    viewExam: "DAMOO тест режимі",
+    examKicker: "ЖАҢА ҚҰРАЛ · СЫНАҚ НҰСҚАСЫ",
+    examTitle: "DAMOO Exam Lock",
+    examLead: "Тест кезінде тек damoo.kz сайтын ашуға арналған браузер саясаттары. Chrome, Яндекс Браузер және Edge үшін бөлек сынақ жинағы.",
+    trialBadge: "PILOT / TEST",
+    examKitTag: "ROLAB EXAM LOCK",
+    examCardTitle: "Тек DAMOO-мен тест тапсыру",
+    examCardText: "Басқа веб-сайттар мен браузер кеңейтімдерін шектейді. Бұрынғы параметрлерді қайтару файлы архив ішінде бар.",
+    examDownload: "Exam Lock ZIP жүктеу",
+    examZipNote: "BAT, PowerShell, қалпына келтіру және нұсқаулық бір архивте.",
+    examAllowed: "Негізгі рұқсат етілген тест сайты",
+    examDenied: "Браузердегі басқа сайттар шектеледі",
+    examExtLabel: "AI кеңейтімдері",
+    examExtensions: "Браузер кеңейтімдерін қолдану шектеледі",
+    examRestoreLabel: "Қалпына келтіру",
+    examRestore: "Архивтегі RESTORE_PREVIOUS_SETTINGS.bat арқылы",
+    examImportant: "Маңызды: бұл әлі толық Windows киоск емес.",
+    examCaution: "Сынақ файлы тек үш браузердің саясатын өзгертеді. Басқа бағдарламалар мен телефонды бұғаттамайды. Ең алдымен бір компьютерде, әкімші қатысуымен DAMOO кіруі мен жауап жіберуін тексеріңіз.",
+    cloudKicker: "КЕЛЕСІ КЕЗЕҢ",
+    cloudTitle: "ROLAB SchoolGuard Cloud",
+    cloudLead: "Бір орталық панельден бірнеше мектептің компьютерлерін басқару идеясы. Компьютерлер бір Wi-Fi желісінде болмауы мүмкін.",
+    cloudBadge: "ЖОСПАР / ДЕМО",
+    cloudDemoTitle: "Болашақ басқару панелінің үлгісі",
+    cloudMockNote: "Мысал деректер · нақты құрылғылар жалғанбаған",
+    schoolChoose: "Мектепті таңдаңыз",
+    schoolAll: "Барлық мектеп — мысал",
+    schoolT: "Мектеп T — мысал",
+    schoolS: "Мектеп S — мысал",
+    cloudSelected: "Таңдалған компьютерлер",
+    cloudPlatform: "Тест платформасы",
+    cloudMode: "Exam Lock режимі",
+    cloudSimulation: "Көрнекі үлгі: құрылғыларға команда жіберілмейді",
+    cloudHowTitle: "Болашақта қалай жұмыс істейді?",
+    cloudStep1: "Әр Windows компьютеріне мектеп әкімшісі SchoolGuard Agent орнатады.",
+    cloudStep2: "Agent қауіпсіз интернет байланысы арқылы орталық қызметпен байланысады.",
+    cloudStep3: "Мұғалім тек өз мектебінің компьютерлеріне тест режимін жібереді.",
+    cloudDisclaimer: "Бұл бөлім — болашақ функцияның интерфейс демонстрациясы. ZIP ішінде жұмыс істейтін Cloud сервері, Windows Agent немесе қашықтан басқару мүмкіндігі жоқ."
   },
   ru: {
     brandSubtitle: 'Центр загрузок',
@@ -85,7 +125,47 @@ const translations = {
     sampleSitesTitle: 'Примеры блокируемых сайтов',
     sampleSitesCount: '78 сайтов',
     footerRights: '© Rolab. Все права защищены.',
-    footerDownloads: 'Загрузки'
+    footerDownloads: 'Загрузки',
+    navGames: "Игровые сайты",
+    navExam: "Тест DAMOO",
+    navCloud: "Cloud демо",
+    viewExam: "Режим теста DAMOO",
+    examKicker: "НОВИНКА · ТЕСТОВАЯ ВЕРСИЯ",
+    examTitle: "DAMOO Exam Lock",
+    examLead: "Пилотный набор политик браузеров: доступ только к damoo.kz во время теста. Для Chrome, Яндекс Браузера и Edge.",
+    trialBadge: "PILOT / TEST",
+    examKitTag: "ROLAB EXAM LOCK",
+    examCardTitle: "Тестирование только на DAMOO",
+    examCardText: "Ограничение других сайтов и расширений браузеров, с возможностью восстановления прежних настроек.",
+    examDownload: "Скачать Exam Lock ZIP",
+    examZipNote: "BAT, PowerShell, восстановление и инструкция в одном архиве.",
+    examAllowed: "Основной разрешённый сайт для теста",
+    examDenied: "Другие сайты в браузере ограничиваются",
+    examExtLabel: "AI-расширения",
+    examExtensions: "Использование расширений браузера ограничивается",
+    examRestoreLabel: "Восстановление",
+    examRestore: "Через RESTORE_PREVIOUS_SETTINGS.bat из архива",
+    examImportant: "Важно: это ещё не полноценный киоск Windows.",
+    examCaution: "Пилот изменяет политики только трёх браузеров; не блокирует другие программы и телефоны. Сначала проверьте вход в DAMOO и отправку ответов на одном ПК с администратором.",
+    cloudKicker: "В ПЛАНАХ",
+    cloudTitle: "ROLAB SchoolGuard Cloud",
+    cloudLead: "Концепция управления компьютерами нескольких школ из одной панели, даже когда они подключены к разным сетям.",
+    cloudBadge: "ПЛАН / ДЕМО",
+    cloudDemoTitle: "Макет будущей панели управления",
+    cloudMockNote: "Примерные данные · компьютеры не подключены",
+    schoolChoose: "Выберите школу",
+    schoolAll: "Все школы — пример",
+    schoolT: "Школа T — пример",
+    schoolS: "Школа S — пример",
+    cloudSelected: "Выбрано компьютеров",
+    cloudPlatform: "Платформа тестирования",
+    cloudMode: "Режим Exam Lock",
+    cloudSimulation: "Это визуальная демонстрация: команды не отправляются",
+    cloudHowTitle: "Как это будет работать?",
+    cloudStep1: "Администратор устанавливает SchoolGuard Agent на каждый Windows-компьютер.",
+    cloudStep2: "Agent безопасно соединяется с центральным сервисом через интернет.",
+    cloudStep3: "Учитель управляет только компьютерами своей школы.",
+    cloudDisclaimer: "Этот блок — демонстрация будущей функции. В ZIP нет работающего Cloud-сервера, Windows Agent или удалённого управления."
   },
   en: {
     brandSubtitle: 'Download Center',
@@ -129,9 +209,57 @@ const translations = {
     sampleSitesTitle: 'Examples of blocked websites',
     sampleSitesCount: '78 sites',
     footerRights: '© Rolab. All rights reserved.',
-    footerDownloads: 'Downloads'
+    footerDownloads: 'Downloads',
+    navGames: "Game sites",
+    navExam: "DAMOO exam",
+    navCloud: "Cloud demo",
+    viewExam: "DAMOO exam mode",
+    examKicker: "NEW TOOL · PILOT VERSION",
+    examTitle: "DAMOO Exam Lock",
+    examLead: "Pilot browser policies to allow access to damoo.kz during exams while restricting other sites. Supports Chrome, Yandex Browser and Edge.",
+    trialBadge: "PILOT / TEST",
+    examKitTag: "ROLAB EXAM LOCK",
+    examCardTitle: "Test on DAMOO only",
+    examCardText: "Restrict other websites and browser extensions, with an included file to restore previous settings.",
+    examDownload: "Download Exam Lock ZIP",
+    examZipNote: "BAT, PowerShell, recovery and instructions in one archive.",
+    examAllowed: "Primary allowed examination website",
+    examDenied: "Other websites are restricted in the browser",
+    examExtLabel: "AI extensions",
+    examExtensions: "Browser extensions are restricted",
+    examRestoreLabel: "Restore settings",
+    examRestore: "Using RESTORE_PREVIOUS_SETTINGS.bat in the archive",
+    examImportant: "Important: this is not a complete Windows kiosk.",
+    examCaution: "This pilot changes policies in three browsers only. It does not prevent other apps or phone usage. First test DAMOO login and answer submission on one PC with an administrator.",
+    cloudKicker: "ROADMAP",
+    cloudTitle: "ROLAB SchoolGuard Cloud",
+    cloudLead: "A concept for centrally managing computers across several schools, even on different Wi-Fi networks.",
+    cloudBadge: "PLANNED / DEMO",
+    cloudDemoTitle: "Future control panel preview",
+    cloudMockNote: "Sample data · no actual devices connected",
+    schoolChoose: "Select a school",
+    schoolAll: "All schools — example",
+    schoolT: "School T — example",
+    schoolS: "School S — example",
+    cloudSelected: "Selected computers",
+    cloudPlatform: "Test platform",
+    cloudMode: "Exam Lock mode",
+    cloudSimulation: "Visual preview only: no commands are sent",
+    cloudHowTitle: "How it would work",
+    cloudStep1: "A school administrator installs SchoolGuard Agent on each Windows computer.",
+    cloudStep2: "Agents securely connect to a central service over the internet.",
+    cloudStep3: "Teachers can control only their own school’s registered devices.",
+    cloudDisclaimer: "This section previews a future feature. The ZIP does not include an operational Cloud service, Windows Agent or remote device control."
   }
 };
+
+const schoolSelect = document.getElementById('schoolSelect');
+const demoCount = document.getElementById('demoCount');
+if (schoolSelect && demoCount) {
+  schoolSelect.addEventListener('change', () => {
+    demoCount.textContent = schoolSelect.value === 'all' ? '40' : '20';
+  });
+}
 
 function setLanguage(lang){
   const dict = translations[lang] || translations.kk;
@@ -143,11 +271,13 @@ function setLanguage(lang){
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });
-  localStorage.setItem('rolab-lang', lang);
+  try { localStorage.setItem('rolab-lang', lang); } catch (_) {}
 }
 
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
 });
 
-setLanguage(localStorage.getItem('rolab-lang') || 'kk');
+let initialLang = 'kk';
+try { initialLang = localStorage.getItem('rolab-lang') || 'kk'; } catch (_) {}
+setLanguage(initialLang);

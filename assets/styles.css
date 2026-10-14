@@ -113,3 +113,70 @@ img{max-width:100%;display:block}
   .download-link{width:100%}
   .section{padding:48px 0}
 }
+
+/* ROLAB Exam Lock & Cloud preview additions */
+.quick-nav{display:flex;align-items:center;gap:19px;font-size:13px;font-weight:750;color:#424659}
+.quick-nav a{position:relative;white-space:nowrap;transition:color .16s ease}
+.quick-nav a:hover{color:#633be4}
+.exam-section,.cloud-section{scroll-margin-top:96px}
+.exam-section{padding-top:74px}
+.exam-section-title{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.exam-section-title>div{max-width:720px}
+.section-head.left p{margin-left:0}
+.trial-badge,.concept-badge{border:1px solid #dccffa;background:#f2edff;color:#6e4bd2;font-size:11px;font-weight:900;padding:12px 15px;border-radius:999px;letter-spacing:.07em;white-space:nowrap}
+.exam-layout{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}
+.exam-download-panel{position:relative;overflow:hidden;padding:38px;border-radius:30px;background:linear-gradient(120deg,#8627ed 0%,#634be9 47%,#35c2ed 115%);box-shadow:0 24px 65px rgba(91,67,243,.18);color:white;isolation:isolate}
+.exam-download-panel::before{content:"";position:absolute;right:-115px;top:-125px;width:350px;height:350px;border:1px solid #ffffff50;border-radius:50%;box-shadow:0 0 0 45px #ffffff09,0 0 0 115px #ffffff08;z-index:-1}
+.exam-watermark{position:absolute;right:20px;bottom:-45px;font-size:280px;font-weight:900;line-height:1;color:rgba(255,255,255,.065);z-index:-1}
+.exam-icon{background:linear-gradient(140deg,#ffce4d,#ff9968);color:#65305a;border-radius:19px;display:grid;place-items:center;font-weight:900;font-size:24px;width:60px;height:60px;margin-bottom:24px;box-shadow:0 10px 35px #4824b455}
+.exam-label{font-size:11px;font-weight:900;letter-spacing:.17em;color:#e7e5ff}
+.exam-download-panel h3{font-size:clamp(28px,3vw,38px);line-height:1.1;letter-spacing:-.035em;margin:10px 0 14px}
+.exam-download-panel p{color:#f0edff;line-height:1.75;font-size:14px;max-width:500px}
+.exam-tags{display:flex;flex-wrap:wrap;gap:8px;margin:21px 0 26px}
+.exam-tags span{font-size:11px;font-weight:750;border-radius:999px;padding:9px 12px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.2)}
+.btn-white{background:white;color:#4a32c5;box-shadow:0 10px 30px #25156a33;gap:12px;font-size:14px}
+.exam-download-panel .exam-file-note{font-size:11px;margin:13px 0 0;color:#eae6ff}
+.exam-side-panel{display:flex;flex-direction:column;gap:16px}
+.exam-benefits{padding:16px 25px;background:white;border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow)}
+.benefit{display:flex;align-items:center;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.benefit:last-child{border:0}
+.benefit-symbol{font-size:20px;display:grid;place-items:center;font-weight:800;width:41px;height:41px;flex-shrink:0;border-radius:13px}
+.benefit-symbol.positive{color:#0f9c7c;background:#dcf9eb}.benefit-symbol.negative{color:#cd496e;background:#fff0f5}.benefit-symbol.restore{color:#6652eb;background:#f0edff}
+.benefit strong{font-size:15px}.benefit p{font-size:12px;color:var(--muted);margin:5px 0 0;line-height:1.5}
+.exam-notice{padding:20px 22px;border-radius:20px;background:#fffaf1;border:1px solid #f6dfb8}
+.exam-notice strong{display:block;font-size:13px;color:#9b6418;margin-bottom:6px}
+.exam-notice p{font-size:12px;line-height:1.8;color:#875d35;margin:0}
+.cloud-section{padding-top:72px;background:linear-gradient(180deg,#f0f2fb 0%,#f8f9fc 100%)}
+.cloud-head{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.cloud-head>div{max-width:720px}
+.cloud-layout{display:grid;grid-template-columns:1.13fr .87fr;gap:24px}
+.cloud-preview{background:#fff;border:1px solid #dfe5f2;border-radius:26px;box-shadow:var(--shadow);padding:26px}
+.cloud-topline{display:flex;align-items:center;gap:9px;color:#6a6f81;font-size:11px;border-bottom:1px solid var(--line);padding-bottom:17px}
+.cloud-dot{height:9px;width:9px;border-radius:50%;background:#ffae57;box-shadow:0 0 0 4px #fff2dc}
+.demo-tag{margin-left:auto;color:#935a13;background:#ffedcb;font-weight:800;border-radius:6px;padding:7px 9px;font-size:9px;letter-spacing:.09em}
+.cloud-panel-title{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin:22px 0;flex-wrap:wrap}
+.cloud-panel-title strong{font-size:23px;letter-spacing:-.03em}
+.cloud-panel-title span{max-width:210px;text-align:right;color:#9994a9;font-size:11px;line-height:1.5}
+.preview-controls label{display:block;font-size:12px;font-weight:800;margin-bottom:9px;color:#646b7c}
+.preview-controls select{appearance:auto;width:100%;height:47px;border-radius:13px;border:1px solid #e1e4f0;background:#f9f9fd;color:#383550;padding:0 13px;font:600 13px Inter,system-ui,sans-serif;outline-offset:2px}
+.preview-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:15px}
+.preview-stat-grid>div{padding:16px;background:#f6f6fb;border:1px solid #eeeeF5;border-radius:16px}
+.preview-stat-grid span{display:block;color:#7b7e8d;font-size:11px;margin-bottom:8px}
+.preview-stat-grid strong{font-size:24px;color:#4235a6}
+.mode-strip{display:flex;align-items:center;gap:12px;border-radius:15px;padding:14px 15px;background:linear-gradient(100deg,#f2efff,#f1f9ff);margin-top:14px}
+.mode-strip strong{font-size:13px}.mode-strip small{display:block;color:#73798c;font-size:10px;line-height:1.6;margin-top:4px}
+.mode-pulse{height:10px;width:10px;border-radius:50%;background:#ae88ff;box-shadow:0 0 0 4px #e5dafe;flex-shrink:0}
+.preview-lock{margin-left:auto;color:#674be9;font-size:25px;font-weight:bold}
+.pc-preview{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:16px}
+.pc-preview span{font-size:10px;font-weight:750;color:#79758b;border:1px solid #eeeaf8;border-radius:8px;padding:7px 8px}
+.cloud-info{padding:30px 10px 12px 15px}
+.cloud-info h3{font-size:24px;margin:0 0 25px;letter-spacing:-.025em}
+.cloud-process{list-style:none;padding:0;margin:0;display:grid;gap:20px}
+.cloud-process li{display:flex;gap:14px;align-items:flex-start}
+.cloud-process li span{font-size:12px;font-weight:900;flex-shrink:0;color:#653de8;background:#e8e3ff;border-radius:10px;padding:10px}
+.cloud-process li p{margin:0;color:#53586c;font-size:14px;line-height:1.75}
+.cloud-disclaimer{display:flex;gap:12px;background:#e8eaf7;border:1px solid #dedff1;color:#4c5477;border-radius:16px;padding:16px;margin-top:26px}
+.cloud-disclaimer span{font-size:20px}.cloud-disclaimer p{font-size:12px;line-height:1.7;margin:0}
+@media(max-width:1180px){.quick-nav{display:none}}
+@media(max-width:920px){.exam-layout,.cloud-layout{grid-template-columns:1fr}.cloud-info{padding:16px 0}.exam-download-panel{padding:30px}.exam-section-title,.cloud-head{align-items:flex-start;flex-wrap:wrap}}
+@media(max-width:550px){.exam-download-panel{padding:26px;border-radius:23px}.trial-badge,.concept-badge{font-size:10px;padding:10px 12px}.cloud-preview{padding:20px}.cloud-panel-title span{text-align:left}.benefit strong{font-size:13px}.exam-section,.cloud-section{padding-top:52px}}

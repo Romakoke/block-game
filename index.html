@@ -20,6 +20,11 @@
           <span data-i18n="brandSubtitle">Download Center</span>
         </div>
       </a>
+      <nav class="quick-nav" aria-label="ROLAB navigation">
+        <a href="#downloads" data-i18n="navGames">Ойындар</a>
+        <a href="#exam-lock" data-i18n="navExam">DAMOO Exam Lock</a>
+        <a href="#cloud" data-i18n="navCloud">Cloud</a>
+      </nav>
       <div class="nav-actions">
         <div class="lang-switch" aria-label="Language switcher">
           <button class="lang-btn active" data-lang="kk">ҚАЗ</button>
@@ -40,7 +45,7 @@
           <p class="hero-lead" data-i18n="heroLead">Онлайн ойындар мен 18+ сайттарды шектеуге арналған дайын файлдарды жүктеп алыңыз. Google Chrome, Яндекс Браузер және Microsoft Edge үшін қолайлы.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/downloads/school-filter-complete.zip" download data-i18n="downloadFull">Толық жинақты жүктеу</a>
-            <a class="btn btn-secondary" href="#downloads" data-i18n="viewFiles">Файлдарды көру</a>
+            <a class="btn btn-secondary" href="#exam-lock" data-i18n="viewExam">DAMOO тест режимі</a>
           </div>
           <ul class="hero-points">
             <li data-i18n="point1">3 браузерге қолдау</li>
@@ -110,6 +115,87 @@
       </div>
     </section>
 
+
+    <!-- DAMOO Exam Lock / local pilot download -->
+    <section class="section exam-section" id="exam-lock">
+      <div class="container">
+        <div class="section-head left exam-section-title">
+          <div>
+            <span class="section-kicker" data-i18n="examKicker">ЖАҢА ҚҰРАЛ · СЫНАҚ НҰСҚАСЫ</span>
+            <h2 data-i18n="examTitle">DAMOO Exam Lock</h2>
+            <p data-i18n="examLead">Тест кезінде тек damoo.kz сайтын ашуға бағытталған браузер саясаттары. Chrome, Яндекс Браузер және Edge үшін бөлек сынақ жинағы.</p>
+          </div>
+          <span class="trial-badge" data-i18n="trialBadge">PILOT / TEST</span>
+        </div>
+        <div class="exam-layout">
+          <div class="exam-download-panel">
+            <div class="exam-watermark" aria-hidden="true">R</div>
+            <div class="exam-icon" aria-hidden="true">▣</div>
+            <span class="exam-label" data-i18n="examKitTag">ROLAB EXAM LOCK</span>
+            <h3 data-i18n="examCardTitle">Тек DAMOO-мен тест тапсыру</h3>
+            <p data-i18n="examCardText">Басқа веб-сайттарды және браузер кеңейтімдерін шектеу; бұрынғы параметрлерді қайтару файлы архив ішінде бар.</p>
+            <div class="exam-tags"><span>Windows 10/11</span><span>Chrome</span><span>Yandex</span><span>Edge</span></div>
+            <a class="btn btn-white" href="/downloads/ROLAB_Exam_Lock_3_Browsers_TEST.zip" download="ROLAB_Exam_Lock_3_Browsers_TEST.zip">
+              <span aria-hidden="true">↓</span> <span data-i18n="examDownload">Exam Lock ZIP жүктеу</span>
+            </a>
+            <p class="exam-file-note" data-i18n="examZipNote">BAT, PowerShell, қалпына келтіру және нұсқаулық бір архивте.</p>
+          </div>
+          <div class="exam-side-panel">
+            <div class="exam-benefits">
+              <div class="benefit"><span class="benefit-symbol positive">✓</span><div><strong>damoo.kz</strong><p data-i18n="examAllowed">Негізгі рұқсат етілген тест сайты</p></div></div>
+              <div class="benefit"><span class="benefit-symbol negative">×</span><div><strong>Google · ChatGPT · Gemini</strong><p data-i18n="examDenied">Браузердегі басқа сайттар шектеледі</p></div></div>
+              <div class="benefit"><span class="benefit-symbol negative">×</span><div><strong data-i18n="examExtLabel">AI кеңейтімдері</strong><p data-i18n="examExtensions">Кеңейтімдерді орнату және іске қосу шектеледі</p></div></div>
+              <div class="benefit"><span class="benefit-symbol restore">↶</span><div><strong data-i18n="examRestoreLabel">Қалпына келтіру</strong><p data-i18n="examRestore">Архивтегі RESTORE_PREVIOUS_SETTINGS.bat арқылы</p></div></div>
+            </div>
+            <div class="exam-notice">
+              <strong data-i18n="examImportant">Маңызды: бұл әлі толық Windows киоск емес.</strong>
+              <p data-i18n="examCaution">Сынақ файлы тек үш браузердің саясатын өзгертеді. Басқа бағдарламалар мен телефонды бұғаттамайды. Ең алдымен бір компьютерде, әкімшінің қатысуымен DAMOO кіруі мен жауап жіберуін тексеріңіз.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cloud central control is architectural concept only, not backend -->
+    <section class="section cloud-section" id="cloud">
+      <div class="container">
+        <div class="section-head left cloud-head">
+          <div>
+            <span class="section-kicker" data-i18n="cloudKicker">КЕЛЕСІ КЕЗЕҢ</span>
+            <h2 data-i18n="cloudTitle">ROLAB SchoolGuard Cloud</h2>
+            <p data-i18n="cloudLead">Бір орталық панельден бірнеше мектептің компьютерлерін басқару идеясы. Компьютерлер бір Wi-Fi желісінде болмауы мүмкін.</p>
+          </div>
+          <span class="concept-badge" data-i18n="cloudBadge">ЖОСПАР / ДЕМО</span>
+        </div>
+        <div class="cloud-layout">
+          <div class="cloud-preview">
+            <div class="cloud-topline"><div class="cloud-dot"></div><span data-i18n="cloudDemoTitle">Болашақ басқару панелінің үлгісі</span><span class="demo-tag">DEMO</span></div>
+            <div class="cloud-panel-title"><strong>SchoolGuard</strong><span data-i18n="cloudMockNote">Мысал деректер · нақты құрылғылар жалғанбаған</span></div>
+            <div class="preview-controls">
+              <label for="schoolSelect" data-i18n="schoolChoose">Мектепті таңдаңыз</label>
+              <select id="schoolSelect" aria-label="School selection">
+                <option value="all" data-i18n="schoolAll">Барлық мектеп — мысал</option>
+                <option value="t" data-i18n="schoolT">Мектеп T — мысал</option>
+                <option value="s" data-i18n="schoolS">Мектеп S — мысал</option>
+              </select>
+            </div>
+            <div class="preview-stat-grid"><div><span data-i18n="cloudSelected">Таңдалған компьютерлер</span><strong id="demoCount">40</strong></div><div><span data-i18n="cloudPlatform">Тест платформасы</span><strong>damoo.kz</strong></div></div>
+            <div class="mode-strip"><span class="mode-pulse"></span><div><strong data-i18n="cloudMode">Exam Lock режимі</strong><small data-i18n="cloudSimulation">Көрнекі үлгі: құрылғыларға команда жіберілмейді</small></div><span class="preview-lock">⌁</span></div>
+            <div class="pc-preview" aria-hidden="true"><span>PC-01</span><span>PC-02</span><span>PC-03</span><span>PC-04</span><span>PC-05</span><span>PC-06</span><span>···</span></div>
+          </div>
+          <div class="cloud-info">
+            <h3 data-i18n="cloudHowTitle">Болашақта қалай жұмыс істейді?</h3>
+            <ol class="cloud-process">
+              <li><span>01</span><p data-i18n="cloudStep1">Әр Windows компьютеріне мектеп әкімшісі SchoolGuard Agent орнатады.</p></li>
+              <li><span>02</span><p data-i18n="cloudStep2">Agent қауіпсіз интернет байланысы арқылы орталық қызметпен байланысады.</p></li>
+              <li><span>03</span><p data-i18n="cloudStep3">Мұғалім тек өз мектебінің компьютерлеріне тест режимін жібереді.</p></li>
+            </ol>
+            <div class="cloud-disclaimer"><span aria-hidden="true">ⓘ</span><p data-i18n="cloudDisclaimer">Бұл бөлім — болашақ функцияның интерфейс демонстрациясы. Бұл ZIP ішінде жұмыс істейтін Cloud сервері, Windows Agent немесе қашықтан басқару мүмкіндігі жоқ.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section soft-section" id="steps">
       <div class="container">
         <div class="section-head left">
@@ -172,6 +258,7 @@
       <div class="footer-links">
         <a href="https://www.instagram.com/rolab.shymkent?cplk=NTBoNGdkNjJlbHQ=" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="#downloads" data-i18n="footerDownloads">Жүктеулер</a>
+        <a href="#exam-lock">Exam Lock</a>
       </div>
     </div>
   </footer>
